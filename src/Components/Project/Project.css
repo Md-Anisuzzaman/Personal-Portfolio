@@ -1,0 +1,52 @@
+*{
+  font-family: 'poppins', sans-serif ;
+}
+
+
+.project-title{
+color: crimson;
+text-align: center;
+font-weight: 600;
+margin-top: 5%;
+font-size: 36px;
+}
+
+.project-body{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  /* padding: 5%; */
+  margin-top: 3%;
+
+  background-color: #e3e4e8;
+}
+
+
+/* .project-image-div1 img:hover{
+  opacity: .5;
+  transition: .2s;
+  color: yellow;
+} */
+
+.project-image-div1{
+  position: relative;
+}
+
+.project-image-div1 button{
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  font-size: 36px;
+  border: none;
+  background: none;
+  font-weight: 600;
+}
+
+.project-image-div1 button a{
+  text-decoration: none;
+  color:yellow;
+ 
+}
+
+
